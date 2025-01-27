@@ -1,0 +1,16 @@
+[package]
+name = "ibt_token"
+version = "0.0.1"
+authors = ["ElvisLuaba"]
+
+[dependencies]
+MoveStdlib = { local = "./sui/crates/sui-framework/packages/move-stdlib" }
+sui-framework = { local = "./sui/crates/sui-framework" }
+
+[build]
+language_version = "1.0.0"
+
+[addresses]
+example = "0x123"
+sui = "0x2"
+
